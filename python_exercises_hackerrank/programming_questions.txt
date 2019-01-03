@@ -1,0 +1,15 @@
+Solve nearly all questions from hackerrank	-	https://www.hackerrank.com/domains/python
+
+--------------------------------------
+
+How-to..?
+
+When solving any question from hackerrank, make a solution file in your individual folder(by name) and make a file with same name
+as programming question title.
+ex:
+
+prashant
+	| - Python If-Else.txt
+	| - Ariththmetic Operators.txt
+
+In the file, do put the question url on the first line.
