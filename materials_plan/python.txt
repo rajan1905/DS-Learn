@@ -7,6 +7,9 @@ IDE		:	If you want to use web based ide with notebooks type model, use Jupyter N
 			windows IDE, use Spyder. The advantage of Spyder is you can see all variables used in the program in IDE.
 			Both can be opened from Anaconda Navigator.
 
+Misc	:	https://www.dataquest.io/blog/learn-python-the-right-way/			
+			
 ----------------------------------------------------------------------------------------
 
-1.		
+1.		Start with the Learn Python the Hard Way book.
+2.		
