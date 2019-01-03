@@ -1,0 +1,12 @@
+						Python Learning Plan
+----------------------------------------------------------------------------------------
+
+Book	:	https://www.souravsengupta.com/cds2015/python/LPTHW.pdf (Learn Python the Hard Way)
+S/Way	:	Install Python 3, Anaconda for Python 3
+IDE		:	If you want to use web based ide with notebooks type model, use Jupyter Notebook. If you want to use 
+			windows IDE, use Spyder. The advantage of Spyder is you can see all variables used in the program in IDE.
+			Both can be opened from Anaconda Navigator.
+
+----------------------------------------------------------------------------------------
+
+1.		
