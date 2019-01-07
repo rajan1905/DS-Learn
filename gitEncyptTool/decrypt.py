@@ -13,22 +13,17 @@ def get_encryption_key():
 def do_decypytion(folderPath):
     key = get_encryption_key()
     for (dirpath, dirnames, filenames) in os.walk(folderPath):
+        print(filenames)
         for filename in filenames:
             if filename.endswith('.aes'):
                 fullpath = dirpath + '/' + filename
                 unEncruptedFile = fullpath[:-4]
                 pyAesCrypt.decryptFile(fullpath, unEncruptedFile, key, bufferSize)
-            
+                
+                # Remove the encrypted file after encryption. Although not desired as 
+                # while encrypting, the file will be over-writed, but why create the confusion eh.
+                os.remove(dirpath + '\\' + filename)
         
 if __name__== "__main__":
-    parser = OptionParser()
-    parser.add_option("-d", "--directory", dest="directory",
-                      help="full path of the directory")
-    
-    (options, args) = parser.parse_args()
-    
-    if options.directory == None:
-        parser.print_help()
-    else:        
-        do_decypytion(options.directory)
+    do_decypytion(os.getcwd())
     
